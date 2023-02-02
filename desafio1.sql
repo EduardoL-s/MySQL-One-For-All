@@ -110,14 +110,14 @@ DROP DATABASE IF EXISTS SpotifyClone;
   INSERT INTO SpotifyClone.cançao (cançao_id, cançao_nome, cançao_duraçao, album_id)
   VALUES
     (1, 'BREAK MY SOUL', 279, 1),
-    (2, "VIRGO'S GROOVE", 369, 1),
+    (2, "VIRGO’S GROOVE", 369, 1),
     (3, 'ALIEN SUPERSTAR', 116, 1),
-    (4, "Don't Stop Me Now", 203, 2),
+    (4, "Don’t Stop Me Now", 203, 2),
     (5, 'Under Pressure', 152, 2),
     (6, 'Como Nossos Pais', 105, 3),
     (7, 'O Medo de Amar é o Medo de Ser Livre', 207, 3),
     (8, 'Samba em Paris', 267, 4),
-    (9, "The Bard's Song", 244, 5),
+    (9, "The Bard’s Song", 244, 5),
     (10, 'Feeling Good', 100, 6);
     
   INSERT INTO SpotifyClone.historico (usuario_id, cançao_id, data_reproduçao)
